@@ -1,0 +1,2 @@
+gcc assem.c -o assem.exe
+assem.exe

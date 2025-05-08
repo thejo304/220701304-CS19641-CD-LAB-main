@@ -1,0 +1,5 @@
+int a, b, c;
+float x, y;
+if (a == b) {
+    x = y + 10;
+}

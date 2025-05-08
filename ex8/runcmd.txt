@@ -1,0 +1,4 @@
+bison -d expr.y --  sometimes show erroe. but no prblm
+flex expr.l
+gcc expr.tab.c lex.yy.c -o tac.exe
+tac.exe

@@ -1,0 +1,4 @@
+bison -d yac.y
+flex lex.l
+gcc yac.tab.c lex.yy.c
+parser.exe

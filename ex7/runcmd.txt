@@ -1,0 +1,5 @@
+bison -d ctrl.y
+flex control.l
+gcc lex.yy.c ctrl.tab.c -o ctrl.exe
+ctrl.exe
+if(x) { while(y) { for(i; j; k) {} } } else { switch(z) { case 1: {} default: {} } }

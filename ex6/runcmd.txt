@@ -1,0 +1,3 @@
+bison -d expr.y
+flex expr.l
+gcc lex.yy.c expr.tab.c -o calc.exe

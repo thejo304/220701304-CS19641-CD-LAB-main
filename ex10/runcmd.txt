@@ -1,0 +1,2 @@
+gcc tac.c -o tac_generator
+tac_generator.exe
